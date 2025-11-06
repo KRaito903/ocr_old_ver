@@ -450,7 +450,7 @@ def process_video_folder(recognitor, detector, video_folder_path, output_dir, ba
     print(f"Processing folder: {video_name}")
     
     # Get all image files in the folder
-    image_extensions = ['*.jpg', '*.jpeg', '*.png', '*.bmp', '*.tiff']
+    image_extensions = ['*.webp','*.jpg', '*.jpeg', '*.png', '*.bmp', '*.tiff']
     image_paths = []
     
     for ext in image_extensions:
